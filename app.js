@@ -23,7 +23,7 @@
     var tweets_id = process.argv[2],
     message_text = 'MESSAGE TEXT';
 
-    var params = {screen_name: 'nodejs'};
+
     client.get('statuses/retweeters/ids', {id: tweets_id}, function(error, retweeters, response) {
         if (!error) {
 
