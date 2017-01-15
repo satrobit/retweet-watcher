@@ -2,7 +2,6 @@
 ===
 It watches a given tweet and sends direct messages to users who retweet it (if they already follow you).
 
-
 ## Install
 ### Install dependecies:
 ```bash
